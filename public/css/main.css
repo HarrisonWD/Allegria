@@ -1,0 +1,153 @@
+/*********************************
+******************************
+    Imported font examples
+******************************
+font-family: itc-avant-garde-gothic-pro, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+ITC Avant Garde Gothic Pro Book
+
+font-family: itc-avant-garde-gothic-pro, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+ITC Avant Garde Gothic Pro Medium
+
+font-family: itc-avant-garde-gothic-pro, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+*********************************/
+
+
+/************* Properties *************/
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+footer {
+    margin: 0;
+    height: 30px;
+}
+
+main {
+    width:90%;
+    margin: auto;
+    height: 85vh;
+    min-height: 740px;
+    justify-content: center;
+    text-align: center;
+}
+
+nav {
+    height: 6vh;
+    min-height: 60px;
+}
+
+/*********************************/
+
+.card{
+    margin: 10px;
+    min-width: 170px;
+    min-height: 170px;
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+
+.card-img-top{
+    max-width: 80px;
+    max-height: 80px;
+    margin: 5px;
+}
+
+.home-nav {
+    margin: auto;
+    display: flex;
+    height: 100%;
+    max-width: 900px;
+}
+
+.layout{
+    min-height: 770px;
+}
+
+.row {
+    margin: auto;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.flex-wrap{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    max-width: 900px;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.nav-item{
+    border: black 1px solid;
+    margin: 0;
+    width: 100px;
+}
+
+
+
+
